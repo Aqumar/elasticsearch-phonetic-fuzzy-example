@@ -65,7 +65,7 @@ PUT /phonetic_index
 
 The script then evaluations the following queries:
 
-## Phonetic search only
+# Phonetic search only
 
 ```json
 GET /phonetic_index/type/_search
@@ -79,8 +79,9 @@ GET /phonetic_index/type/_search
   },
   "size" : 15
 }
+```
 
-## Phonetic search combined with fuzzy query with fuzziness 2
+# Phonetic search combined with fuzzy query with fuzziness 2
 
 ```json
 GET /phonetic_index/type/_search
